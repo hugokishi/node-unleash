@@ -1,7 +1,7 @@
-export interface Properties {
+interface Properties {
   [key: string]: string | undefined | number;
 }
-export interface Context {
+interface Context {
   [key: string]: string | Date | undefined | number | Properties;
   currentTime?: Date;
   userId?: string;
@@ -13,7 +13,7 @@ export interface Context {
 }
 
 /**
-  * ! Use this function if you want to export the logs and warn of a possible error
+  * ! Use this function when you want to check in unleash if the flag is activated
   */
 export function isEnabled(flagName: string, context: Context): boolean
 
