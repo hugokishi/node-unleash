@@ -1,0 +1,10 @@
+{
+  "name": "node_unleash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "elven-alertmanager-nodejs": "git+ssh://git@github.com:elvenworks/elven-alertmanager-nodejs",
+    "unleash-client": "^3.17.0"
+  }
+}
