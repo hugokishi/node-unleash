@@ -27,7 +27,6 @@ import { InitUnleashClient } from "node-unleash";
 ```
 
 ## Usage
-
 Sample code:
 
 ```js
